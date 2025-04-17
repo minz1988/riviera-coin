@@ -14,10 +14,10 @@ export default function RivieraLandingPage() {
       {/* Hero Section */}
       <section
         className="relative min-h-[85vh] flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/monaco-yacht.jpg')" }}
+        style={{ backgroundImage: "url('/public/images/monaco-yacht.jpg')" }}
       >
         <div className="absolute top-10 w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-lg">
-          <img src="/images/riviera-coin-logo.png" alt="Riviera Coin Logo" className="w-16 h-16"/>
+          <img src="/public/images/riviera-coin-logo.png" alt="Riviera Coin Logo" className="w-16 h-16"/>
         </div>
         <div className="relative z-10 bg-black/50 p-8 rounded-xl max-w-2xl mt-32">
           <h2 className="text-5xl font-bold mb-4 leading-tight">
@@ -34,7 +34,7 @@ export default function RivieraLandingPage() {
       <main className="px-6 md:px-20 py-24 space-y-24">
         {/* About */}
         <section className="grid md:grid-cols-2 gap-10 items-center">
-          <img src="/images/riviera-coastline.jpg" alt="Riviera Coast" className="rounded-2xl shadow-xl"/>
+          <img src="/public/images/riviera-coastline.jpg" alt="Riviera Coast" className="rounded-2xl shadow-xl"/>
           <div>
             <h3 className="text-4xl font-bold mb-4">What is Riviera Coin?</h3>
             <p className="text-lg leading-relaxed text-gray-700">
