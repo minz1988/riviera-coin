@@ -43,7 +43,7 @@ export default function RivieraLandingPage() {
       <main className="px-6 md:px-20 py-24 space-y-24">
         {/* About */}
         <section className="grid md:grid-cols-2 gap-10 items-center">
-          <img src="/images/riviera-coastline.jpg" alt="Riviera Coast" className="rounded-2xl shadow-xl"/>
+          <img src="/images/riviera-coastline.png" alt="Riviera Coast" className="rounded-2xl shadow-xl"/>
           <div>
             <h3 className="text-4xl font-bold mb-4">What is Riviera Coin?</h3>
             <p className="text-lg leading-relaxed text-gray-700">
