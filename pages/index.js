@@ -84,28 +84,25 @@ export default function RivieraLandingPage() {
           </p>
         </section>
 
-        {/* NFT Collection */}
+      {/* NFT Collection */}
         <section className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
           <h3 className="text-4xl font-bold mb-6 text-center">Riviera Lifestyles NFT Collection</h3>
-          <p className="text-lg text-center mb-6">
+          <p className="text-lg text-center mb-12">
             A high-style digital art drop of 777 luxury NFTs representing the Riviera dream.
           </p>
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <img src="/images/nft-yacht.png" alt="Yacht NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-fashion.png" alt="Fashion NFT" className="rounded-xl shadow-lg"/>
+        
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <img src="/images/nft-yacht.png" alt="Yacht NFT" className="rounded-xl shadow-lg" />
+            <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg" />
+            <img src="/images/nft-fashion.png" alt="Fashion NFT" className="rounded-xl shadow-lg" />
           </div>
-          
-           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <img src="/images/nft-yacht.png" alt="Yacht NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-fashion.png" alt="Fashion NFT" className="rounded-xl shadow-lg"/>
-          </div>
-         
+        
+          <div className="text-center">
             <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">Join Whitelist</button>
             <button className="ml-4 bg-gray-200 text-black px-8 py-3 rounded-full hover:bg-gray-300 transition">Mint Soon</button>
           </div>
         </section>
+
 
         {/* Social Links */}
        <section className="text-center">
