@@ -20,7 +20,7 @@ export default function RivieraLandingPage() {
       </section>
 
       <main className="px-6 md:px-20 py-24 space-y-24">
-        {/* Additional sections here */}
+        {/* Additional sections like Tokenomics, NFTs, Socials, Roadmap */}
       </main>
 
       <footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
