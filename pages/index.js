@@ -16,12 +16,15 @@ export default function RivieraLandingPage() {
         className="relative min-h-[85vh] flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
         style={{ backgroundImage: "url('/images/RIV.png')" }}
       >
+        
 <div className="absolute top-10">
-  <img
-    src="/images/logo.png"
-    alt="Riviera Coin Logo"
-    className="w-36 h-36 rounded-full shadow-lg animate-pulse"
-  />
+  <div className="w-36 h-36 rounded-full bg-black/20 backdrop-blur-md flex items-center justify-center shadow-lg">
+    <img
+      src="/images/logo.png"
+      alt="Riviera Coin Logo"
+      className="w-28 h-28 rounded-full"
+    />
+  </div>
 </div>
 
 
