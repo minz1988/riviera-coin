@@ -111,13 +111,13 @@ export default function RivieraLandingPage() {
           <h3 className="text-3xl font-bold mb-4">Follow Us</h3>
           <div className="flex justify-center space-x-6">
             <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/twitter.svg" alt="Twitter" className="w-8 h-8 hover:opacity-80 transition" />
+              <img src="/images/twitter.svg" alt="Twitter" className="w-8 h-8 hover:opacity-80 transition" />
             </a>
             <a href="https://instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/instagram.svg" alt="Instagram" className="w-8 h-8 hover:opacity-80 transition" />
+              <img src="/images/instagram.svg" alt="Instagram" className="w-8 h-8 hover:opacity-80 transition" />
             </a>
             <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">
-              <img src="/images/icons/telegram.svg" alt="Telegram" className="w-8 h-8 hover:opacity-80 transition" />
+              <img src="/images/telegram.svg" alt="Telegram" className="w-8 h-8 hover:opacity-80 transition" />
             </a>
           </div>
         </section>
