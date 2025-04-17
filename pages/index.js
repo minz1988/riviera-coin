@@ -92,15 +92,10 @@ export default function RivieraLandingPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <img src="/images/nft-yacht.png" alt="Yacht NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-sunset.png" alt="Sunset NFT" className="rounded-xl shadow-lg"/>
+            <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg"/>
             <img src="/images/nft-fashion.png" alt="Fashion NFT" className="rounded-xl shadow-lg"/>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-hotel-negresco.png" alt="Hotel NFT" className="rounded-xl shadow-lg"/>
-            <img src="/images/nft-prince-palace.png" alt="Palace NFT" className="rounded-xl shadow-lg"/>
-          </div>
-          <div className="text-center">
+         
             <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">Join Whitelist</button>
             <button className="ml-4 bg-gray-200 text-black px-8 py-3 rounded-full hover:bg-gray-300 transition">Mint Soon</button>
           </div>
