@@ -57,19 +57,26 @@ export default function RivieraLandingPage() {
 
 
 
-        {/* Tokenomics */}
-        <section className="grid md:grid-cols-2 gap-10">
-          <div className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
-            <h3 className="text-3xl font-bold mb-6">Tokenomics</h3>
-            <ul className="space-y-4 text-lg">
-              <li><strong>Total Supply:</strong> 1,000,000 RIV</li>
-              <li><strong>Distribution:</strong> Community-focused, No Presale, No Dev Wallet</li>
-              <li><strong>Utilities:</strong> Access to NFT drops, luxury raffles, RIV Club events</li>
-              <li><strong>Chain:</strong> BNB Smart Chain</li>
-            </ul>
-          </div>
-          <img src="/images/riviera-harbor.png" alt="Riviera Harbor" className="rounded-2xl shadow-xl"/>
-        </section>
+      <section className="grid md:grid-cols-2 gap-10 items-center">
+        <div className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
+          <h3 className="text-3xl font-bold mb-6">Tokenomics</h3>
+          <ul className="space-y-4 text-lg">
+            <li><strong>Total Supply:</strong> 1,000,000 RIV</li>
+            <li><strong>Distribution:</strong> Community-focused, No Presale, No Dev Wallet</li>
+            <li><strong>Utilities:</strong> Access to NFT drops, luxury raffles, RIV Club events</li>
+            <li><strong>Chain:</strong> BNB Smart Chain</li>
+          </ul>
+        </div>
+      
+        <div className="flex justify-center">
+          <img
+            src="/images/riviera-harbor.png"
+            alt="Riviera Harbor"
+            className="rounded-2xl shadow-xl object-cover max-h-[350px] w-auto"
+          />
+        </div>
+      </section>
+
 
         {/* Why No Presale */}
         <section className="max-w-3xl mx-auto bg-white shadow-xl p-10 rounded-2xl text-gray-800">
