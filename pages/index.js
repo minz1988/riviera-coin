@@ -125,7 +125,7 @@ export default function RivieraLandingPage() {
           <h3 className="text-4xl font-bold mb-8 text-center">Roadmap</h3>
           <ol className="max-w-4xl mx-auto text-gray-700 text-lg list-decimal space-y-3 pl-6">
             <li>✅ Testnet Deployment</li>
-            <li>🎨 Brand & Website Launch</li>
+            <li>✅ Brand & Website Launch</li>
             <li>🚀 Mainnet & PancakeSwap</li>
             <li>🎁 NFT Drop</li>
             <li>🛥️ RIV Club Events</li>
