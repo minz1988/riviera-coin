@@ -54,9 +54,6 @@ export default function RivieraLandingPage() {
         </div>
       </section>
 
-
-
-
       <section className="grid md:grid-cols-2 gap-10 items-center">
         <div className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
           <h3 className="text-3xl font-bold mb-6">Tokenomics</h3>
@@ -72,7 +69,7 @@ export default function RivieraLandingPage() {
           <img
             src="/images/riviera-harbor.png"
             alt="Riviera Harbor"
-            className="rounded-2xl shadow-xl object-cover max-h-[400px] w-auto"
+            className="rounded-2xl shadow-xl object-cover max-h-[400px] w-full"
           />
         </div>
       </section>
