@@ -39,20 +39,21 @@ export default function RivieraLandingPage() {
       {/* Main Content */}
       <main className="px-6 md:px-20 py-24 space-y-24">
         {/* About */}
-        <section className="grid md:grid-cols-2 gap-10 items-center">
-            <img
-              src="/images/riviera-coastline.png"
-              alt="Riviera Lifestyle"
-              className="rounded-2xl shadow-xl"
-            />
-            <div>
-              <h3 className="text-4xl font-bold mb-4">What is Riviera Coin?</h3>
-              <p className="text-lg leading-relaxed text-gray-700">
-                Riviera Coin (RIV) is a lifestyle token born in the heart of the French Riviera, embodying luxury,
-                freedom, and sophistication in decentralized finance.
-              </p>
-            </div>
-          </section>
+      <section className="grid md:grid-cols-2 gap-10 items-center">
+          <img
+            src="/images/riviera-coastline.png"
+            alt="Riviera Lifestyle"
+            className="rounded-2xl shadow-xl object-cover max-h-[400px] w-full"
+          />
+          <div className="bg-white/70 p-8 rounded-2xl shadow-lg">
+            <h3 className="text-4xl font-bold mb-4">What is Riviera Coin?</h3>
+            <p className="text-lg leading-relaxed text-gray-700">
+              Riviera Coin (RIV) is a lifestyle token born in the heart of the French Riviera, embodying luxury,
+              freedom, and sophistication in decentralized finance.
+            </p>
+          </div>
+        </section>
+
 
 
         {/* Tokenomics */}
