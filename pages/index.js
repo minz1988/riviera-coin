@@ -114,9 +114,9 @@ export default function RivieraLandingPage() {
             <a href="https://www.instagram.com/rivieracoin/" target="_blank" rel="noopener noreferrer">
               <img src="/images/instagram.svg" alt="Instagram" className="w-8 h-8 hover:opacity-80 transition" />
             </a>
-          //  <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">
-         //     <img src="/images/telegram.svg" alt="Telegram" className="w-8 h-8 hover:opacity-80 transition" />
-         //   </a>
+             <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">
+               <img src="/images/telegram.svg" alt="Telegram" className="w-8 h-8 hover:opacity-80 transition" />
+            </a>
           </div>
         </section>
 
