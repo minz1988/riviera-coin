@@ -41,7 +41,7 @@ export default function RivieraLandingPage() {
         {/* About */}
         <section className="grid md:grid-cols-2 gap-10 items-center">
             <img
-              src="/images/your-new-smaller-luxury-image.png"
+              src="/images/riviera-coastline.png"
               alt="Riviera Lifestyle"
               className="rounded-2xl shadow-xl"
             />
