@@ -69,7 +69,7 @@ export default function RivieraLandingPage() {
           <img
             src="/images/riviera-harbor.png"
             alt="Riviera Harbor"
-            className="rounded-2xl shadow-xl object-cover max-h-[400px] w-full"
+            className="rounded-2xl shadow-xl object-cover max-h-[350px] w-full"
           />
         </div>
       </section>
