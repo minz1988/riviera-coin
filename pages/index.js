@@ -98,7 +98,10 @@ export default function RivieraLandingPage() {
           </div>
         
           <div className="text-center">
+           <a href="https://forms.gle/kdAHDzzzhkB9mx346" target="_blank" rel="noopener noreferrer">
             <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">Join Whitelist</button>
+            </a>
+
             <button className="ml-4 bg-gray-200 text-black px-8 py-3 rounded-full hover:bg-gray-300 transition">Mint Soon</button>
           </div>
         </section>
