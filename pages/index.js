@@ -58,7 +58,7 @@ export default function RivieraLandingPage() {
               <li><strong>Chain:</strong> BNB Smart Chain</li>
             </ul>
           </div>
-          <img src="/images/riviera-harbor.jpg" alt="Riviera Harbor" className="rounded-2xl shadow-xl"/>
+          <img src="/images/riviera-harbor.png" alt="Riviera Harbor" className="rounded-2xl shadow-xl"/>
         </section>
 
         {/* Why No Presale */}
