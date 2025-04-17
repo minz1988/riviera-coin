@@ -3,21 +3,21 @@ export default function RivieraLandingPage() {
 
   return (
     <div className="min-h-screen bg-[#f8f8f6] text-gray-900 font-serif">
+      {/* Header */}
       <header className="w-full bg-white shadow-sm py-6 px-4 md:px-12 flex justify-between items-center">
         <h1 className="text-3xl font-bold tracking-tight">Riviera Coin</h1>
-        <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all">Access the Riviera</button>
+        <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all">
+          Access the Riviera
+        </button>
       </header>
 
+      {/* Hero Section */}
       <section
         className="relative min-h-[85vh] flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
         style={{ backgroundImage: "url('/images/monaco-yacht.jpg')" }}
       >
         <div className="absolute top-10 w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-lg">
-          <img
-            src="/images/riviera-coin-logo.png"
-            alt="Riviera Coin Logo"
-            className="w-16 h-16"
-          />
+          <img src="/images/riviera-coin-logo.png" alt="Riviera Coin Logo" className="w-16 h-16"/>
         </div>
         <div className="relative z-10 bg-black/50 p-8 rounded-xl max-w-2xl mt-32">
           <h2 className="text-5xl font-bold mb-4 leading-tight">
@@ -30,13 +30,11 @@ export default function RivieraLandingPage() {
         </div>
       </section>
 
+      {/* Main Content */}
       <main className="px-6 md:px-20 py-24 space-y-24">
+        {/* About */}
         <section className="grid md:grid-cols-2 gap-10 items-center">
-          <img
-            src="/images/riviera-coastline.jpg"
-            alt="Riviera Coast"
-            className="rounded-2xl shadow-xl"
-          />
+          <img src="/images/riviera-coastline.jpg" alt="Riviera Coast" className="rounded-2xl shadow-xl"/>
           <div>
             <h3 className="text-4xl font-bold mb-4">What is Riviera Coin?</h3>
             <p className="text-lg leading-relaxed text-gray-700">
@@ -46,6 +44,7 @@ export default function RivieraLandingPage() {
           </div>
         </section>
 
+        {/* Tokenomics */}
         <section className="grid md:grid-cols-2 gap-10">
           <div className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
             <h3 className="text-3xl font-bold mb-6">Tokenomics</h3>
@@ -56,49 +55,33 @@ export default function RivieraLandingPage() {
               <li><strong>Chain:</strong> BNB Smart Chain</li>
             </ul>
           </div>
-          <img
-            src="/images/riviera-harbor.jpg"
-            alt="Riviera Harbor"
-            className="rounded-2xl shadow-xl"
-          />
+          <img src="/images/riviera-harbor.jpg" alt="Riviera Harbor" className="rounded-2xl shadow-xl"/>
         </section>
 
+        {/* Why No Presale */}
         <section className="max-w-3xl mx-auto bg-white shadow-xl p-10 rounded-2xl text-gray-800">
           <h3 className="text-3xl font-bold mb-6 text-center">Why No Presale?</h3>
           <p className="text-lg leading-relaxed">
             We chose not to do a presale to keep Riviera Coin fair, transparent, and truly community-first.
             No insider deals, no early unlocks — just a clean launch where everyone gets equal access from day one.
-            This is how luxury should work in the blockchain era: timeless, elegant, and open to all.
           </p>
         </section>
 
+        {/* NFT Collection */}
         <section className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
           <h3 className="text-4xl font-bold mb-6 text-center">Riviera Lifestyles NFT Collection</h3>
-          <p className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-6">
-            A high-style digital art drop of 777 luxury NFTs representing the Riviera dream. From yachts and golden sunsets to fashion icons
-            and sea-swept escapes — this collection opens the doors to the RIV Club and beyond.
+          <p className="text-lg text-center mb-6">
+            A high-style digital art drop of 777 luxury NFTs representing the Riviera dream.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <img src="/images/nft-yacht.png" alt="Yacht Club Legend NFT" className="rounded-xl shadow-lg" />
-            <img src="/images/nft-sunset.png" alt="Sunset Moment NFT" className="rounded-xl shadow-lg" />
-            <img src="/images/nft-fashion.png" alt="Golden Hour Fashion NFT" className="rounded-xl shadow-lg" />
+            <img src="/images/nft-yacht.png" alt="Yacht NFT" className="rounded-xl shadow-lg"/>
+            <img src="/images/nft-sunset.png" alt="Sunset NFT" className="rounded-xl shadow-lg"/>
+            <img src="/images/nft-fashion.png" alt="Fashion NFT" className="rounded-xl shadow-lg"/>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <img
-              src="/images/nft-casino-monte-carlo.png"
-              alt="Casino de Monte-Carlo NFT"
-              className="rounded-xl shadow-lg"
-            />
-            <img
-              src="/images/nft-hotel-negresco.png"
-              alt="Hotel Negresco NFT"
-              className="rounded-xl shadow-lg"
-            />
-            <img
-              src="/images/nft-prince-palace.png"
-              alt="Prince's Palace of Monaco NFT"
-              className="rounded-xl shadow-lg"
-            />
+            <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg"/>
+            <img src="/images/nft-hotel-negresco.png" alt="Hotel NFT" className="rounded-xl shadow-lg"/>
+            <img src="/images/nft-prince-palace.png" alt="Palace NFT" className="rounded-xl shadow-lg"/>
           </div>
           <div className="text-center">
             <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">Join Whitelist</button>
@@ -106,33 +89,33 @@ export default function RivieraLandingPage() {
           </div>
         </section>
 
+        {/* Social Links */}
         <section className="text-center">
           <h3 className="text-3xl font-bold mb-4">Follow Us</h3>
-          <p className="text-lg mb-4">Stay connected and live the Riviera lifestyle online:</p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-blue-500 hover:text-blue-700" target="_blank" rel="noopener noreferrer">Twitter</a>
-            <a href="#" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="#" className="text-blue-700 hover:text-blue-900" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a href="#" className="text-blue-500 hover:text-blue-700">Twitter</a>
+            <a href="#" className="text-pink-500 hover:text-pink-700">Instagram</a>
+            <a href="#" className="text-blue-700 hover:text-blue-900">Telegram</a>
           </div>
         </section>
 
+        {/* Roadmap */}
         <section>
           <h3 className="text-4xl font-bold mb-8 text-center">Roadmap</h3>
-          <div className="max-w-4xl mx-auto text-gray-700 text-lg">
-            <ol className="list-decimal space-y-3 pl-6">
-              <li>✅ Riviera Coin Testnet Deployment</li>
-              <li>🎨 Brand & Website Launch</li>
-              <li>🚀 BNB Mainnet + PancakeSwap Launch</li>
-              <li>🎁 NFT Collection: "Riviera Lifestyles"</li>
-              <li>🛥️ RIV Club: Access-only raffles, drops & merch</li>
-            </ol>
-          </div>
+          <ol className="max-w-4xl mx-auto text-gray-700 text-lg list-decimal space-y-3 pl-6">
+            <li>✅ Testnet Deployment</li>
+            <li>🎨 Brand & Website Launch</li>
+            <li>🚀 Mainnet & PancakeSwap</li>
+            <li>🎁 NFT Drop</li>
+            <li>🛥️ RIV Club Events</li>
+          </ol>
         </section>
       </main>
 
+      {/* Footer */}
       <footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
         <p>Smart Contract Address: <span className="font-mono">(Coming Soon)</span></p>
-        <p className="mt-2">© {currentYear} Riviera Coin — Inspired by the Coast. Powered by the Chain.</p>
+        <p className="mt-2">© {currentYear} Riviera Coin — Inspired by the Coast.</p>
       </footer>
     </div>
   );
