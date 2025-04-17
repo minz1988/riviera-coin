@@ -43,7 +43,7 @@ export default function RivieraLandingPage() {
         <img
           src="/images/riviera-coastline.png"
           alt="Riviera Lifestyle"
-          className="rounded-2xl shadow-xl object-cover max-h-[400px] w-full"
+          className="rounded-2xl shadow-xl object-cover max-h-[350px] w-full"
         />
         <div>
           <h3 className="text-4xl font-bold mb-4 leading-tight">What is Riviera Coin?</h3>
