@@ -14,7 +14,7 @@ export default function RivieraLandingPage() {
       {/* Hero Section */}
       <section
         className="relative min-h-[85vh] flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/RIV background.jpg')" }}
+        style={{ backgroundImage: "url('/images/RIV.jpg')" }}
       >
         <div className="absolute top-10 w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-lg">
           <img src="/images/riviera-coin-logo.png" alt="Riviera Coin Logo" className="w-16 h-16"/>
