@@ -17,7 +17,7 @@ export default function RivieraLandingPage() {
 
       {/* Popup Modal */}
       {showPopup && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-2xl shadow-2xl max-w-md text-center">
             <img src="/images/logo.png" alt="Riviera Coin Logo" className="w-16 h-16 mx-auto mb-4" />
             <h2 className="text-3xl font-bold mb-4 text-gray-900">Welcome to the Riviera!</h2>
@@ -37,13 +37,20 @@ export default function RivieraLandingPage() {
         </div>
       )}
 
-      {/* Your website content starts here (Header, Hero, Main Sections...) */}
-      
-      {/* Header */}
-      {/* Hero Section */}
-      {/* Main Content */}
-      {/* Liquidity Locked */}
-      {/* Footer */}
+      {/* Your existing site content here, starting with Header */}
+      <header className="w-full bg-white shadow-sm py-6 px-4 md:px-12 flex justify-between items-center">
+        <h1 className="text-3xl font-bold tracking-tight">Riviera Coin</h1>
+        <a 
+          href="https://pancakeswap.finance/swap?outputCurrency=0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all"
+        >
+          Access the Riviera
+        </a>
+      </header>
+
+      {/* Continue with your Hero section, Main Content, Footer, etc. */}
 
     </div>
   );
