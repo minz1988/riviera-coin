@@ -161,7 +161,7 @@ export default function RivieraLandingPage() {
       <img src="/images/bsc-logo.svg" alt="BSC" className="w-5 h-5" />
       <span>Smart Contract:</span>
       <a 
-        href="https://bscscan.com/address/0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
+        href="https://bscscan.com/token/0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
         target="_blank" 
         rel="noopener noreferrer"
         className="underline hover:text-gray-700 break-all"
