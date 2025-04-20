@@ -155,13 +155,36 @@ export default function RivieraLandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
-        <p>Smart Contract Address: <span className="font-mono">(Coming Soon)</span></p>
-        <p className="mt-2">© {currentYear} Riviera Coin — Inspired by the Coast.</p>
-        <p className="mt-4 text-sm">
-          🔒 Liquidity Locked – <a href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">View Certificate</a>
-        </p>
-      </footer>
+<footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
+  <div className="flex flex-col items-center space-y-4">
+    <div className="flex items-center space-x-2">
+      <img src="/images/bsc-logo.svg" alt="BSC" className="w-5 h-5" />
+      <span>Smart Contract:</span>
+      <a 
+        href="https://bscscan.com/address/0x7aedda8074db7779911ff6c9e8ac929969fd883" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="underline hover:text-gray-700 break-all"
+      >
+        0x7aedda8074db7779911ff6c9e8ac929969fd883
+      </a>
+    </div>
+
+    <p>© {currentYear} Riviera Coin — Inspired by the Coast.</p>
+
+    <p className="text-sm">
+      🔒 Liquidity Locked – 
+      <a 
+        href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="underline hover:text-gray-700 ml-1"
+      >
+        View Certificate
+      </a>
+    </p>
+  </div>
+</footer>
     </div>
   );
 }
