@@ -129,7 +129,7 @@ export default function RivieraLandingPage() {
           <ol className="max-w-4xl mx-auto text-gray-700 text-lg list-decimal space-y-3 pl-6">
             <li>✅ Testnet Deployment</li>
             <li>✅ Brand & Website Launch</li>
-            <li>🚀 Mainnet & PancakeSwap</li>
+            <li>✅ Mainnet & PancakeSwap</li>
             <li>🎁 NFT Drop</li>
             <li>🛥️ RIV Club Events</li>
           </ol>
