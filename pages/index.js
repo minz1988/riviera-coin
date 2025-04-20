@@ -158,7 +158,7 @@ export default function RivieraLandingPage() {
 <footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
    <div className="flex flex-col items-center space-y-4">
     <div className="flex items-center space-x-2">
-      <img src="/images/bsc-logo.svg" alt="BSC" className="w-5 h-5" />
+      <img src="/images/bsc-logo.png" alt="BSC" className="w-5 h-5" />
       <span>Smart Contract:</span>
       <a 
         href="https://bscscan.com/token/0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
