@@ -40,15 +40,26 @@ export default function RivieraLandingPage() {
       {/* Header */}
       <header className="w-full bg-white shadow-sm py-6 px-4 md:px-12 flex justify-between items-center">
         <h1 className="text-3xl font-bold tracking-tight">Riviera Coin</h1>
-        <a 
-          href="https://pancakeswap.finance/swap?outputCurrency=0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all"
-        >
-          Access the Riviera
-        </a>
+        <div className="flex space-x-4">
+          <a 
+            href="https://pancakeswap.finance/swap?outputCurrency=0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all"
+          >
+            Access the Riviera
+          </a>
+          <a 
+            href="/images/Whitepaper.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-gray-200 text-black px-6 py-2 rounded-full hover:bg-gray-300 transition-all"
+          >
+            Whitepaper 📄
+          </a>
+        </div>
       </header>
+
 
       {/* Hero Section */}
       <section className="relative min-h-[85vh] flex flex-col items-center justify-center text-white text-center bg-cover bg-center" style={{ backgroundImage: "url('/images/RIV.png')" }}>
