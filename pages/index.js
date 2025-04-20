@@ -58,10 +58,16 @@ export default function RivieraLandingPage() {
         <div className="relative z-10 bg-black/50 p-8 rounded-xl max-w-2xl mt-32">
           <h2 className="text-5xl font-bold mb-4 leading-tight">Born on the Riviera.<br />Built for the Blockchain.</h2>
           <p className="text-xl">Luxury, freedom, and elegance — all in one token.</p>
-          <button className="mt-6 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
+         
+        <button
+            onClick={() => window.open('https://pancakeswap.finance/swap?outputCurrency=0xc7aedda8074db7779911ff6c9e8ac929969fd883', '_blank')}
+            className="mt-6 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+          >
             Access the Riviera
           </button>
-        </div>
+
+        
+  </div>
       </section>
 
       {/* Main Content */}
