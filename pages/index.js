@@ -6,10 +6,17 @@ export default function RivieraLandingPage() {
       {/* Header */}
       <header className="w-full bg-white shadow-sm py-6 px-4 md:px-12 flex justify-between items-center">
         <h1 className="text-3xl font-bold tracking-tight">Riviera Coin</h1>
-        <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all">
+        <a 
+          href="https://pancakeswap.finance/swap?outputCurrency=0xc7aedda8074db7779911ff6c9e8ac929969fd883" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-all"
+        >
           Access the Riviera
-        </button>
+        </a>
       </header>
+
+  
 
       {/* Hero Section */}
       <section
