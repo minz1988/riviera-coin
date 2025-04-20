@@ -161,5 +161,7 @@ export default function RivieraLandingPage() {
     🔒 Liquidity Locked – <a href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">View Certificate</a>
   </p>
 </footer>
-
-}
+  
+ </div>  {/* <-- CLOSE the <div> */}
+  );
+}     
