@@ -16,7 +16,6 @@ export default function RivieraLandingPage() {
         className="relative min-h-[85vh] flex flex-col items-center justify-center text-white text-center bg-cover bg-center"
         style={{ backgroundImage: "url('/images/RIV.png')" }}
       >
-        
         <div className="absolute top-10">
           <img
             src="/images/logo.png"
@@ -39,41 +38,41 @@ export default function RivieraLandingPage() {
       {/* Main Content */}
       <main className="px-6 md:px-20 py-24 space-y-24">
         {/* About */}
-      <section className="grid md:grid-cols-2 gap-10 items-center">
-        <img
-          src="/images/riviera-coastline.png"
-          alt="Riviera Lifestyle"
-          className="rounded-2xl shadow-xl object-cover max-h-[350px] w-full"
-        />
-        <div>
-          <h3 className="text-4xl font-bold mb-4 leading-tight">What is Riviera Coin?</h3>
-          <p className="text-lg leading-relaxed text-gray-700">
-            Riviera Coin (RIV) is a lifestyle token born in the heart of the French Riviera, embodying luxury,
-            freedom, and sophistication in decentralized finance.
-          </p>
-        </div>
-      </section>
-
-      <section className="grid md:grid-cols-2 gap-10 items-center">
-        <div className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
-          <h3 className="text-3xl font-bold mb-6">Tokenomics</h3>
-          <ul className="space-y-4 text-lg">
-            <li><strong>Total Supply:</strong> 1,000,000 RIV</li>
-            <li><strong>Distribution:</strong> Community-focused, No Presale, No Dev Wallet</li>
-            <li><strong>Utilities:</strong> Access to NFT drops, luxury raffles, RIV Club events</li>
-            <li><strong>Chain:</strong> BNB Smart Chain</li>
-          </ul>
-        </div>
-      
-        <div className="flex justify-center">
+        <section className="grid md:grid-cols-2 gap-10 items-center">
           <img
-            src="/images/riviera-harbor.png"
-            alt="Riviera Harbor"
+            src="/images/riviera-coastline.png"
+            alt="Riviera Lifestyle"
             className="rounded-2xl shadow-xl object-cover max-h-[350px] w-full"
           />
-        </div>
-      </section>
+          <div>
+            <h3 className="text-4xl font-bold mb-4 leading-tight">What is Riviera Coin?</h3>
+            <p className="text-lg leading-relaxed text-gray-700">
+              Riviera Coin (RIV) is a lifestyle token born in the heart of the French Riviera, embodying luxury,
+              freedom, and sophistication in decentralized finance.
+            </p>
+          </div>
+        </section>
 
+        {/* Tokenomics */}
+        <section className="grid md:grid-cols-2 gap-10 items-center">
+          <div className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
+            <h3 className="text-3xl font-bold mb-6">Tokenomics</h3>
+            <ul className="space-y-4 text-lg">
+              <li><strong>Total Supply:</strong> 1,000,000 RIV</li>
+              <li><strong>Distribution:</strong> Community-focused, No Presale, No Dev Wallet</li>
+              <li><strong>Utilities:</strong> Access to NFT drops, luxury raffles, RIV Club events</li>
+              <li><strong>Chain:</strong> BNB Smart Chain</li>
+            </ul>
+          </div>
+
+          <div className="flex justify-center">
+            <img
+              src="/images/riviera-harbor.png"
+              alt="Riviera Harbor"
+              className="rounded-2xl shadow-xl object-cover max-h-[350px] w-full"
+            />
+          </div>
+        </section>
 
         {/* Why No Presale */}
         <section className="max-w-3xl mx-auto bg-white shadow-xl p-10 rounded-2xl text-gray-800">
@@ -84,31 +83,33 @@ export default function RivieraLandingPage() {
           </p>
         </section>
 
-      {/* NFT Collection */}
+        {/* NFT Collection */}
         <section className="bg-white shadow-xl p-10 rounded-2xl text-gray-800">
           <h3 className="text-4xl font-bold mb-6 text-center">Riviera Lifestyles NFT Collection</h3>
           <p className="text-lg text-center mb-12">
             A high-style digital art drop of 777 luxury NFTs representing the Riviera dream.
           </p>
-        
+
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <img src="/images/nft-yacht.png" alt="Yacht NFT" className="rounded-xl shadow-lg" />
             <img src="/images/nft-casino-monte-carlo.png" alt="Casino NFT" className="rounded-xl shadow-lg" />
             <img src="/images/nft-fashion.png" alt="Fashion NFT" className="rounded-xl shadow-lg" />
           </div>
-        
-          <div className="text-center">
-           <a href="https://forms.gle/kdAHDzzzhkB9mx346" target="_blank" rel="noopener noreferrer">
-            <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">Join Whitelist</button>
-            </a>
 
-            <button className="ml-4 bg-gray-200 text-black px-8 py-3 rounded-full hover:bg-gray-300 transition">Mint Soon</button>
+          <div className="text-center">
+            <a href="https://forms.gle/kdAHDzzzhkB9mx346" target="_blank" rel="noopener noreferrer">
+              <button className="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition">
+                Join Whitelist
+              </button>
+            </a>
+            <button className="ml-4 bg-gray-200 text-black px-8 py-3 rounded-full hover:bg-gray-300 transition">
+              Mint Soon
+            </button>
           </div>
         </section>
 
-
         {/* Social Links */}
-       <section className="text-center">
+        <section className="text-center">
           <h3 className="text-3xl font-bold mb-4">Follow Us</h3>
           <div className="flex justify-center space-x-6">
             <a href="https://x.com/RIVCoin06" target="_blank" rel="noopener noreferrer">
@@ -117,8 +118,8 @@ export default function RivieraLandingPage() {
             <a href="https://www.instagram.com/rivieracoin/" target="_blank" rel="noopener noreferrer">
               <img src="/images/instagram.svg" alt="Instagram" className="w-8 h-8 hover:opacity-80 transition" />
             </a>
-             <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">
-               <img src="/images/telegram.svg" alt="Telegram" className="w-8 h-8 hover:opacity-80 transition" />
+            <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">
+              <img src="/images/telegram.svg" alt="Telegram" className="w-8 h-8 hover:opacity-80 transition" />
             </a>
           </div>
         </section>
@@ -136,32 +137,31 @@ export default function RivieraLandingPage() {
         </section>
       </main>
 
-{/* Liquidity Locked */}
-<section className="bg-white shadow-xl p-10 rounded-2xl text-gray-800 mt-20 text-center">
-  <h3 className="text-4xl font-bold mb-4">Liquidity Locked 🔒</h3>
-  <p className="text-lg leading-relaxed mb-6">
-    To ensure full trust and security, 100% of the initial liquidity has been locked.
-    Riviera Coin is built to be safe, luxurious, and everlasting — just like the Riviera spirit.
-  </p>
-  <a 
-    href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="inline-block bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition"
-  >
-    View Lock Certificate
-  </a>
-</section>
+      {/* Liquidity Locked */}
+      <section className="bg-white shadow-xl p-10 rounded-2xl text-gray-800 mt-20 text-center">
+        <h3 className="text-4xl font-bold mb-4">Liquidity Locked 🔒</h3>
+        <p className="text-lg leading-relaxed mb-6">
+          To ensure full trust and security, 100% of the initial liquidity has been locked.
+          Riviera Coin is built to be safe, luxurious, and everlasting — just like the Riviera spirit.
+        </p>
+        <a 
+          href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition"
+        >
+          View Lock Certificate
+        </a>
+      </section>
 
-{/* Footer */}
-<footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
-  <p>Smart Contract Address: <span className="font-mono">(Coming Soon)</span></p>
-  <p className="mt-2">© {currentYear} Riviera Coin — Inspired by the Coast.</p>
-  <p className="mt-4 text-sm">
-    🔒 Liquidity Locked – <a href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">View Certificate</a>
-  </p>
-</footer>
-  
- </div>  {/* <-- CLOSE the <div> */}
+      {/* Footer */}
+      <footer className="bg-white border-t py-10 px-6 md:px-20 text-sm text-gray-500 text-center">
+        <p>Smart Contract Address: <span className="font-mono">(Coming Soon)</span></p>
+        <p className="mt-2">© {currentYear} Riviera Coin — Inspired by the Coast.</p>
+        <p className="mt-4 text-sm">
+          🔒 Liquidity Locked – <a href="https://mudra.website/?certificate=yes&type=0&lp=0x118b96e4aa598efd65783cc3cc9220e642cd3d50" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">View Certificate</a>
+        </p>
+      </footer>
+    </div>
   );
-}     
+}
